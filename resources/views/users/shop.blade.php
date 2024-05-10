@@ -143,46 +143,16 @@
                                 </div>
                             </nav>
                             <div class="menu-right">
-                                <ul>
-                                    <li>
-                                        <div class="search-box theme-bg-color">
-                                            <i data-feather="search"></i>
-                                        </div>
+                                
                                     </li>
                                     <li class="onhover-dropdown wislist-dropdown">
-                                        <div class="cart-media">
-                                            <a href="wishlist/list.html">
-                                                <i data-feather="heart"></i>
-                                                <span id="wishlist-count" class="label label-theme rounded-pill">
-                                                    0
-                                                </span>
+                                        
                                             </a>
                                         </div>
                                     </li>
-                                    <li class="onhover-dropdown wislist-dropdown">
-                                        <div class="cart-media">
-                                            <a href="cart/list.html">
-                                                <i data-feather="shopping-cart"></i>
-                                                <span id="cart-count" class="label label-theme rounded-pill">
-                                                    0
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="onhover-dropdown">
-                                        <div class="cart-media name-usr">
-                                            <i data-feather="user"></i>
-                                        </div>
-                                        <div class="onhover-div profile-dropdown">
-                                            <ul>
-                                                <li>
-                                                    <a href="login.html" class="d-block">Login</a>
-                                                </li>
-                                                <li>
-                                                    <a href="register.html" class="d-block">Register</a>
-                                                </li>
+                                    
 
-                                            </ul>
+                                            
                                         </div>
                                     </li>
                                 </ul>
