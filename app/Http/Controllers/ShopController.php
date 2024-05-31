@@ -71,4 +71,13 @@ class ShopController extends Controller
         return response()->json(['status'=>200,'cartCount'=>$cartCount,'wishlistCount'=>$wishlistCount]);
     }
 
+    public function show($id)
+{
+    $product = Product::findOrFail($id);
+    $comments = Comment::where('product_id', $id)->get();
+
+    return view('details', compact('product', 'comments'));
+}
+
+
 }

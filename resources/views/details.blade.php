@@ -124,7 +124,7 @@
 
                                 <div class="color-image">
                                     <div class="image-select">
-                                        <h5>Color :</h5>
+                                        <h5>other :</h5>
                                         <ul class="image-section">
                                             <li>
                                                 <a href="javascript:void(0)">

@@ -11,9 +11,21 @@ use App\Http\Controllers\WishlistController;
 
 Route::get('/',[AppController::class,'index'])->name('app.index');
 
+Route::get('/admin/users/create', [AdminController::class, 'create'])->name('admin.users.create');
+
 Route::get('/shop',[ShopController::class,'index'])->name('shop.index');
 Route::get('/product/{slug}',[ShopController::class,'productDetails'])->name('shop.product.details');
 Route::get('/cart-wishlist-count',[ShopController::class,'getCartAndWishlistCount'])->name('shop.cart.wishlist.count');
+
+Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
+Route::delete('/admin/users/{id}', [AdminController::class, 'destroy'])->name('admin.users.destroy');
+// Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
+Route::post('/admin/users', [AdminController::class, 'store'])->name('admin.users.store');
+// Route::delete('/admin/users/{id}', [AdminController::class, 'destroy'])->name('admin.users.destroy');
+
+
+
+
 
 Route::get('/cart',[CartController::class,'index'])->name('cart.index');
 Route::post('/cart/store', [CartController::class, 'addToCart'])->name('cart.store');
