@@ -2,17 +2,17 @@
 @section('content')
     <section class="pt-0 poster-section">
         <div class="poster-image slider-for custome-arrow classic-arrow">
-            <div>
+            {{-- <div>
                 <img src="assets/images/furniture-images/poster/1.png" class="img-fluid blur-up lazyload" alt="">
             </div>
             <div>
                 <img src="assets/images/furniture-images/poster/2.png" class="img-fluid blur-up lazyload" alt="">
-            </div>
-            <div>
+            </div> --}}
+            {{-- <div>
                 <img src="assets/images/furniture-images/poster/3.png" class="img-fluid blur-up lazyload" alt="">
-            </div>
+            </div> --}}
         </div>
-        <div class="slider-nav image-show">
+        {{-- <div class="slider-nav image-show">
             <div>
                 <div class="poster-img">
                     <img src="assets/images/furniture-images/poster/t2.jpg" class="img-fluid blur-up lazyload" alt="">
@@ -38,17 +38,17 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="left-side-contain">
-            <div class="banner-left">
+            {{-- <div class="banner-left">
                 <h4>Sale <span class="theme-color">35% Off</span></h4>
                 <h1>New Latest <span>Dresses</span></h1>
                 <p>BUY ONE GET ONE <span class="theme-color">FREE</span></p>
                 <h2>$79.00 <span class="theme-color"><del>$65.00</del></span></h2>
                 <p class="poster-details mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
                     industry.</p>
-            </div>
+            </div> --}}
         </div>
 
         <div class="right-side-contain">
@@ -66,7 +66,7 @@
         </div>
     </section>
     <!-- banner section start -->
-    <section class="ratio2_1 banner-style-2">
+    {{-- <section class="ratio2_1 banner-style-2">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6">
@@ -128,10 +128,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- banner section end -->
 
-    <section class="ratio_asos overflow-hidden">
+    {{-- <section class="ratio_asos overflow-hidden">
         <div class="container p-sm-0">
             <div class="row m-0">
                 <div class="col-12 p-0">
@@ -956,7 +956,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- category section start -->
     <section class="category-section ratio_40">
@@ -986,8 +986,8 @@
                                 <img src="assets/images/fashion/category/1.jpg" class="bg-img blur-up lazyload"
                                     alt="category image">
                                 <div class="category-content category-text-1">
-                                    <h3 class="theme-color">Shoes</h3>
-                                    <span class="text-dark">Fashion</span>
+                                    <h3 class="theme-color">Saffran</h3>
+                                    <span class="text-dark">red</span>
                                 </div>
                             </a>
                         </div>
@@ -996,12 +996,12 @@
                                 <img src="assets/images/fashion/category/2.jpg" class="bg-img blur-up lazyload"
                                     alt="category image">
                                 <div class="category-content category-text-1">
-                                    <h3 class="theme-color">Men</h3>
-                                    <span class="text-dark">Fashion</span>
+                                    <h3 class="theme-color">Argane</h3>
+                                    <span class="text-dark">Oil</span>
                                 </div>
                             </a>
                         </div>
-                        <div>
+                        {{-- <div>
                             <a href="shop-left-sidebar.html" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/3.jpg" class="bg-img blur-up lazyload"
                                     alt="category image">
@@ -1020,8 +1020,8 @@
                                     <span class="text-dark">Fashion</span>
                                 </div>
                             </a>
-                        </div>
-                        <div>
+                        </div> --}}
+                        {{-- <div>
                             <a href="shop-left-sidebar.html" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/3.jpg" class="bg-img blur-up lazyload"
                                     alt="category image">
@@ -1030,7 +1030,7 @@
                                     <span class="text-dark">Fashion</span>
                                 </div>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -1039,7 +1039,7 @@
     <!-- category section end -->
 
 
-    <section class="product-slider overflow-hidden">
+    {{-- <section class="product-slider overflow-hidden">
         <div>
             <div class="container">
                 <div class="row g-3">
@@ -1612,14 +1612,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <style>
         .products-c .bg-size {
             background-position: center 0 !important;
         }
     </style>
 
-    <section class="ratio_asos overflow-hidden pb-5">
+    {{-- <section class="ratio_asos overflow-hidden pb-5">
         <div class="px-0 container-fluid p-sm-0">
             <div class="row m-0">
                 <div class="col-12 p-0">
@@ -2162,5 +2162,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection
